@@ -5,7 +5,7 @@ const users = [];
 const bcrypt = require('bcrypt');
 
 app.set('view-engine', 'ejs');
-app.use(express.urlencoded({extended: false}));
+app.use(express.urlencoded({extended: false})); //parses the form as objects of key-value pairs, so we can use those variables like - req.body.name
 
 app.get('/', (req, res) => {
     res.render('index.ejs', {name: 'Mira'});
