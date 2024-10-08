@@ -9,3 +9,5 @@
     dotenv to convert .env file to a process.env (loading into server)
 4. `npm run devStart` 
     to run the server.js file
+5. `npm i bcrypt`
+    to hash passwords
