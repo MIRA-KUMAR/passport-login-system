@@ -11,3 +11,8 @@
     to run the server.js file
 5. `npm i bcrypt`
     to hash passwords
+6. `npm i passport passport-local express-session express-flash`
+    passport - authentication middleware
+    passport-local - used to authenticate with username and password
+    express-session - to store session data
+    express-flash - for displaying flash messages   
